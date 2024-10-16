@@ -23,6 +23,9 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.4535924)
 lb = pound
 
+longton = Unit(name='long ton', abbr='LT', si=kilogram, to_si_fun=lambda n: n * 1016.)
+LT = longton
+
 # ampere
 
 # kelvin
